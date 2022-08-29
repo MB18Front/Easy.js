@@ -34,3 +34,14 @@ new Easy (
   component.appendComponent(this.myComponent, "#root") // render 'myComponent' in root element  
 )
 ```
+
+## How to Use
+
+1 - download the source fron my github <br/>
+2 - add Easy on your project <br/>
+3 - import Easy <br/>
+4 - Enjoy
+
+---
+
+<sup>Easy.js</sup>
