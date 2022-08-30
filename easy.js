@@ -11,7 +11,7 @@ const component = {
     }
     //if element haven't id this part start
     if (element === null || element === undefined || element === '') {
-      console.error('Elemnet Name Error : undefined name! \n check the Element tag name , class or id;\n Note : Element must have Id');
+      console.error('Elemnet Name Error : undefined name! \n check the Element tag name , class or id.');
       return false;
     }
     return element;
@@ -92,17 +92,6 @@ const designEffect = {
     el.style.transition = `${duration}ms linear`;
     el.style.opacity = 0;
   }
-}
-
-class Easy {
-  constructor(component, evListener, styleSheet, SEO, onRender, designEffect) {
-    this.component = component;
-    this.evListener = evListener;
-    this.styleSheet = styleSheet;
-    this.SEO = SEO;
-    this.onRender = onRender;
-    this.designEffect = designEffect;
-  }
 };
 
-export default Easy;
+export { component, styleSheet, evListener, SEO, onRender, designEffect };
