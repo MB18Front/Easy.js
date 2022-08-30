@@ -22,25 +22,23 @@ Easy.js have a simple Syntax.
 
 ###### create and append component :
 ```javascript
-import Easy from 'easy';
+import { component } from 'easy';
 
-new Easy (
-  //Easy use string componenet
-  myComponent = component.createComponent(`
-    <div>
-      <h1> Hello , world! </h1>
+const myComp = component.createComponent(
+  `
+    <div id="hello-massage">
+      <h1>Hello, Worl!</h1>
     </div>
-  `),
-  component.appendComponent(this.myComponent, "#root") // render 'myComponent' in root element  
-)
+  `
+);
+component.appendComponent(myComp, '#root'); // render myComp on root element
 ```
 
 ## How to Use
 
-1 - download the source fron my github <br/>
-2 - add Easy on your project <br/>
-3 - import Easy <br/>
-4 - Enjoy
+1 - enter ```npm i easy-js-lib``` on your console <br/>
+2 - import objects and methods<br/>
+3 - Enjoy
 
 ---
 
