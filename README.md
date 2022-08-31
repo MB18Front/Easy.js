@@ -22,8 +22,6 @@ Easy.js have a simple Syntax.
 
 ###### create and append component :
 ```javascript
-import { component } from 'easy';
-
 const myComp = component.createComponent(
   `
     <div id="hello-massage">
