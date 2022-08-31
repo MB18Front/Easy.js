@@ -93,5 +93,3 @@ const designEffect = {
     el.style.opacity = 0;
   }
 };
-
-export { component, styleSheet, evListener, SEO, onRender, designEffect };
